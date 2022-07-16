@@ -294,6 +294,8 @@
   margin: 0;
   padding: 0;
 }
+body{
+}
 /* header */
 header{
   display: flex;
@@ -325,13 +327,14 @@ header ul li a{
   background-attachment: fixed;
   height: 100vh;
   align-items: center;
+  object-fit: cover;
 }
 .container .sec_1 .text{
   margin-left: 20%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 152px;
+  height: 200px;
   justify-content: space-around;
 }
 .container .sec_1 .text h1{
@@ -352,6 +355,7 @@ header ul li a{
 .container .sec_1 .text a{
   display: flex;
   justify-content: center;
+  text-decoration: none;
 }
 .container .sec_1 .text button{
   color: #fff;
@@ -363,5 +367,39 @@ header ul li a{
   color: #fff;
   font-size: 23px;
   cursor: pointer;
-  margin-top: 70px;
+  margin: 70px;
+}
+
+@media screen and (max-width: 1200px){
+  .container .sec_1{
+    background-image: linear-gradient( rgba(64,67,71), rgba(0, 0, 0, 0.5) ), url(../img/banner-pade.jpg);
+  }
+  header ul li{
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 1024px){
+  .container .sec_1{
+    background: #404347;
+  }
+.container .sec_1 .text{
+  margin: 0 auto;
+}
+  .container .sec_1 .text h1{
+    color: #fff;
+    font-family: 'Arima', cursive;
+    font-size: 70px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+  }
+  .container .sec_1 .text p{
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+  }
 }
