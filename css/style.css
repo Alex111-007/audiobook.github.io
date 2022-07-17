@@ -449,7 +449,12 @@ header ul li a{
   .sec_2 .search img{
     display: block;
     margin: 0 auto;
-    width: 456px;
+    width: 520px;
+  }
+}
+@media screen and (max-width: 768px){
+  .sec_2 .search img{
+      width: 456px;
   }
 }
 @media screen and (max-width: 480px){
@@ -479,6 +484,11 @@ header ul li a{
     font-size: 17px;
     cursor: pointer;
     margin: 70px;
+  }
+  .sec_2 .search img{
+    display: block;
+    margin: 0 auto;
+    width: 356px;
   }
 }
 @media screen and (max-width: 320px){
