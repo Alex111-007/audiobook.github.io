@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+html,
+body {
+  height: 100%;
+}
+header{
+	height: 70px;
+}
+.u-section_1{
+	height: 50vh;
+	background-image: linear-gradient( rgb(21, 21, 21), rgba(0, 0, 0, 0.5) );
+	background-position: 50% 50%;
+	background-attachment: fixed;
+	position: relative;
+	top: 50px;
+	margin: 50px 0px 80px 0px;
+}
+.title{
+	display: flex;
+	flex-direction: column;
+	height: 50vh;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.u-section_1 .title h1{
+	color: #fff;
+}
+.u-section_1 .title p{
+	color: #fff;
+	width: 70%;
+	margin: 0px 100px 0px 100px;
+	text-align: center;
+}
